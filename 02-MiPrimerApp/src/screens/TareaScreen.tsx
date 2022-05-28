@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#28425B',
+    justifyContent: 'space-between',
   },
   cajaMorada: {
     width: 100,
@@ -22,7 +23,7 @@ const styles = StyleSheet.create({
     borderWidth: 10,
     borderColor: 'white',
     backgroundColor: '#5856D6',
-    flex: 1,
+    alignSelf: 'flex-end',
   },
   cajaNaranja: {
     width: 100,
@@ -30,7 +31,7 @@ const styles = StyleSheet.create({
     borderWidth: 10,
     borderColor: 'white',
     backgroundColor: '#F0A23B',
-    flex: 4,
+    alignSelf: 'center',
   },
   cajaAzul: {
     width: 100,
@@ -38,7 +39,6 @@ const styles = StyleSheet.create({
     borderWidth: 10,
     borderColor: 'white',
     backgroundColor: '#28C4D9',
-    flex: 1,
-    bottom: 30,
+    alignSelf: 'flex-start',
   },
 });
